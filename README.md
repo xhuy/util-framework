@@ -4,6 +4,7 @@ The content of this library is considered open source, any kind of use is respon
 
 ### What is this repository for? ###
 
+* Functions that are friendly to change the type of objects and other kind of stuff of utilities.
 * Version 1.0.0
 
 ### How do I get set up? ###
