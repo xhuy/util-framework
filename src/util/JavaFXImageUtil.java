@@ -21,6 +21,8 @@ public class JavaFXImageUtil {
 	 *            Main class from the JavaFX application
 	 * @param path
 	 *            path inside the application (Generally src/main/resources)
+	 * @param <T>
+	 *            class that has to be the mainClass for the app or root
 	 * @return <code>Image</code> object with the specified image in the path
 	 */
 	public static <T> Image createImageFromFile(Class<T> mainClass, String path) {
@@ -33,6 +35,8 @@ public class JavaFXImageUtil {
 	 * 
 	 * @param mainClass
 	 *            Main class from the JavaFX application
+	 * @param <T>
+	 *            class that has to be the mainClass for the app or root
 	 * @return <code>Image</code> object with the image for Error Notification
 	 */
 	public static <T> Image createImageNotificationError(Class<T> mainClass) {
@@ -45,6 +49,8 @@ public class JavaFXImageUtil {
 	 * 
 	 * @param mainClass
 	 *            Main class from the JavaFX application
+	 * @param <T>
+	 *            class that has to be the mainClass for the app or root
 	 * @return <code>Image</code> object with the image for Correct Validation
 	 */
 	public static <T> Image createImageNotificationCorrect(Class<T> mainClass) {

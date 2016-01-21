@@ -85,6 +85,7 @@ public class DateUtil {
 	 * preserving the date data
 	 * 
 	 * @param localDate
+	 *            date to be used
 	 * @return <code>Date</code> with the same date from LocalDate
 	 */
 	public static Date fromLocalDateToDate(LocalDate localDate) {
@@ -94,9 +95,9 @@ public class DateUtil {
 		return new Date(calendar.getTimeInMillis());
 	}
 
-	
 	/**
 	 * Get actual date from the system in a <code>Date</code> object
+	 * 
 	 * @return object <code>Date</code>
 	 */
 	public static Date getActualDate() {

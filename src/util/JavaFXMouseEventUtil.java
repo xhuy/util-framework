@@ -14,8 +14,10 @@ public class JavaFXMouseEventUtil {
 	 * Function that returns true/false if the <code>Node</code> to be search is
 	 * inside the nodeTree
 	 * 
-	 * @param nodeTree 
+	 * @param nodeTree
+	 *            set or tree of nodes
 	 * @param nodeToSearch
+	 *            node to be search
 	 * @return <code>True</code> if the nodeToSearch is found in the nodeTree
 	 */
 	public static Boolean isMouseEventOnNode(Node nodeTree, Node nodeToSearch) {
